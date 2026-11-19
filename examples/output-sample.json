@@ -1,0 +1,67 @@
+{
+  "status": "ok",
+  "action": "clicked",
+  "points": 100,
+  "balance": 4900,
+  "msg": "领取成功，+100 积分，连续第 50 天，当前积分余额 4900 ｜ 派猫猫旅行：旅行中，健身房，还需 3 小时 0 分，已领取旅行奖励 +8 积分；已派出 Buddy 前往【健身房】",
+  "detail": {
+    "domain": "www.codebuddy.cn",
+    "auth_file": "/Users/YOUR_NAME/Library/Application Support/CodeBuddyExtension/Data/Public/auth/workbuddy-desktop.info",
+    "token_masked": "eyJhbG...4UvA",
+    "status_http": 200,
+    "status_resp": {
+      "code": 0,
+      "msg": "OK",
+      "data": {
+        "active": true,
+        "today_checked_in": false,
+        "streak_days": 49,
+        "daily_credit": 100,
+        "today_credit": 100,
+        "is_streak_day": false,
+        "checkin_dates": ["2026-11-18", "2026-11-17", "2026-11-16", "..."],
+        "week_checkin_days": 3,
+        "week_progress": [true, true, true, false, false, false, false],
+        "total_credits": 4900,
+        "start_time": "2026-09-30 00:00:00",
+        "end_time": "2026-12-31 23:59:59",
+        "theme_name": "Buddy加油站",
+        "season": 10,
+        "activity_name": "Buddy应用",
+        "claim_button_text": "立即领取"
+      }
+    },
+    "balance": 4900,
+    "checkin_http": 200,
+    "checkin_resp": {
+      "code": 0,
+      "msg": "OK",
+      "data": {
+        "credit": 100,
+        "streak_days": 50,
+        "is_streak_day": false
+      }
+    },
+    "streak_days": 50
+  },
+  "travel": {
+    "available": true,
+    "state": "traveling",
+    "state_text": "旅行中",
+    "location_name": "健身房",
+    "reward_credit": 6,
+    "remaining_seconds": 10800,
+    "remaining_text": "3 小时 0 分",
+    "daily_limit_reached": true,
+    "locations": [
+      { "id": 1, "name": "咖啡馆" },
+      { "id": 2, "name": "商场店铺" },
+      { "id": 3, "name": "健身房" },
+      { "id": 4, "name": "古镇客栈" }
+    ],
+    "auto_log": [
+      "已领取旅行奖励 +8 积分",
+      "已派出 Buddy 前往【健身房】"
+    ]
+  }
+}
